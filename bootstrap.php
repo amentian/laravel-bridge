@@ -1,6 +1,6 @@
 <?php
 
-use Omr\Bridge\Listeners;
+use Amentian\Bridge\Listeners;
 use Illuminate\Contracts\Events\Dispatcher;
 
 return function (Dispatcher $events)
