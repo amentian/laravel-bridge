@@ -1,0 +1,33 @@
+{
+    "name": "amentian/laravel-bridge",
+    "type": "flarum-extension",
+    "version": "v1.0.0-beta.2",
+    "description": "Bridge between laravel and flarum.",
+    "keywords": ["sync", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amentian",
+            "email": "amentian@gmail.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amentian\\Bridge\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Laravel Bridge",
+            "icon": {
+                "backgroundColor": "#fff",
+                "image": "icon.png",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        }
+    }
+}
