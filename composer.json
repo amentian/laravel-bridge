@@ -19,6 +19,7 @@
             "Amentian\\Bridge\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "extra": {
         "flarum-extension": {
             "title": "Laravel Bridge",
